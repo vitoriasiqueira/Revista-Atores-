@@ -1,0 +1,31 @@
+POST http://localhost:3333/ator
+Content-Type: application/json
+
+{
+    "modelo": "Kim Taehyung",
+    "titulo": "Vogue",
+    "autor": "ICEDVANILLATAE"
+}
+
+###
+
+GET http://localhost:3333/ator
+
+###
+
+GET http://localhost:3333/ator?search= Taehyung
+
+###
+
+PUT http://localhost:3333/ator/d43cdd85-1640-4b20-a894-9f0de3c01e32
+Content-Type: application/json
+
+{
+    "modelo": "Kim Namjoon",
+    "titulo": "Chanel",
+    "autor": "JENNIE KIM"
+}
+
+###
+
+DELETE http://localhost:3333/ator/d43cdd85-1640-4b20-a894-9f0de3c01e32
